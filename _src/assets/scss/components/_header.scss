@@ -1,0 +1,43 @@
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu{
+    
+    // border: solid 2px blue;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100vw;
+    height: 65px;
+    background-color: rgb(222, 163, 226);
+
+
+
+    &__list {
+        // border: solid 2px #fabafa;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: space-between;
+        padding:3px;
+        width: 100vw;
+
+
+    }
+
+    &__item {
+        // border: solid 2px green;
+        text-transform: uppercase;
+        font-family: 'Gloria Hallelujah', cursive; 
+        border-right: solid 1px rgb(94, 7, 81);
+       }
+}
+
+.no-border {
+    border-right: none;
+}
