@@ -1,0 +1,57 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+
+    &__title{
+        text-transform: uppercase;
+        color: rgb(94, 7, 81);
+
+    }
+
+    &__projects {
+        margin-top: 20px;
+    }
+
+    &__groups {
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: underline;
+            color: rgb(94, 7, 81);
+            font-weight: bolder;
+        }
+
+        &__list {
+            list-style: none;
+            color:  rgb(182, 16, 157);
+        }
+    }
+
+    &__owner {
+        display: flex;
+        flex-direction: column;
+
+        &__title {
+            text-align: center;
+            text-transform: capitalize;
+            text-decoration: underline;
+            color: rgb(94, 7, 81);
+            font-weight: bolder;
+
+        }
+
+        &__list {
+            list-style: none;
+            color:  rgb(182, 16, 157);
+        }
+    }
+
+
+}
+
