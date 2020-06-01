@@ -11,7 +11,7 @@ a {
     justify-content: flex-end;
     position: fixed;
     width: 100vw;
-    height: 65px;
+    height: 80px;
     border-radius: 5px;
     background-color: rgb(222, 163, 226);
 
@@ -21,7 +21,7 @@ a {
         // border: solid 2px #fabafa;
         list-style: none;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         box-sizing: border-box;
         align-items: center;
         justify-content: space-between;
@@ -36,4 +36,21 @@ a {
         text-transform: uppercase;
         font-family: 'Gloria Hallelujah', cursive; 
        }
+}
+
+@media all and (min-width: 768px) {
+    .menu {
+
+        height: 65px;
+
+        
+        &__list {
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        &__item {
+            margin-right: 30px;
+        }
+    }
 }
