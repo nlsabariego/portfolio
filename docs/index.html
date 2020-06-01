@@ -4,8 +4,7 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>Adalab Web Starter Kit</title>
-        <link rel="icon" href="./favicon.png" />
+        <title>Portfolio de Noelia</title>
         <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
         rel="stylesheet">
         <link rel="stylesheet" href="./assets/css/main.css" />
@@ -13,27 +12,88 @@
     
     <body>
         <div class="page">
-            <header class="page__header">
-                <img src="./assets/images/logo-adalab.png" alt="Adalab">
-                 <h1>Bienvenidos a Adalab</h1> 
+            <header>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li class="menu__item"><a href="index.html#about">sobre mi</a>
+
+                        </li>
+                        <li class="menu__item"><a href="index.html#project">proyectos</a>
+
+                        </li>
+                        <li class="menu__item"><a href="#">contacto</a>
+
+                        </li>
+                    </ul>
+                </nav>
             </header>
-            <main class="page__main">
-                 <h2>Este es el starter kit de Adalab</h2> 
-                <p>Lo usamos para aprender:</p>
-                <ul class="main__list">
-                    <li>Sass</li>
-                    <li>HTML partials</li>
-                    <li>Gulp</li>
-                    <li>y muchas cosas más</li>
-                </ul>
+            <div class="data">
+                 <h1 class="data__name">noelia luque sabariego</h1> 
+                 <h3 class="data__work">desarrolladora front-end</h3> 
+            </div>
+            <div class="about"> <a id="about" class="anchor-helper"></a> 
+                <img class="about__image" src="../assets/images/fotoNoe.jpg"
+                alt="Foto de Noelia">
+                <div class="about__text">
+                    <p>Aplicaba a mi vida eso de "más vale lo viejo conocido que lo bueno por
+                        conocer", hasta que tome la difícil decisión de <span class="about__text--resalt">salir de mi área de confort</span> y
+                        convertirme en <span class="about__text--resalt">desarrolladora Front-End</span>.</p>
+                    <br>
+                    <p>Saliendo del sector de la estética personal, soy <span class="about__text--resalt">maestra en pasar por "chapa y pintura"</span> a
+                        las personas. ¡Ahora soy capaz de hacer lo mismo con las <span class="about__text--resalt">webs</span>!</p>
+                    <br>
+                    <p>Me gusta <span class="about__text--resalt">trabajar en equipo</span>, pienso
+                        que intercambiando opiniones siempre se llega a tomar la mejor decisión
+                        y siempre intento <span class="about__text--resalt">aportar lo mejor de mi</span>.</p>
+                </div>
+            </div>
+            <main class="project"> <a id="project" class="anchor-helper"></a> 
+                 <h2 class="project__title">mis proyectos</h2> 
+                <div class="project__projects">
+                    <div class="project__groups">
+                         <h3 class="project__groups__title">proyectos grupales</h3> 
+                        <ul class="project__groups__list">
+                            <li class="project__groups__item">
+                                <p class="project__groups__name">coding nassi</p>
+                                <img class="project__groups__image" src="../assets/images/codingNassi.jpg"
+                                alt="coding nassi web">
+                            </li>
+                            <li class="project__groups__item">
+                                <p class="project__groups__name">awesome card - java script</p>
+                                <img class="project__groups__image" src="../assets/images/cardToGo.jpg"
+                                alt="card to go web">
+                            </li>
+                            <li class="project__groups__item">
+                                <p class="project__groups__name">awesome card - react</p>
+                                <img class="project__groups__image" src="../assets/images/react-ivas.jpg"
+                                alt="react-ivas web">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="project__owner">
+                        <p class="project__owner__title">proyectos individuales</p>
+                        <ul class="project__owner__list">
+                            <li class="project__owner__item">
+                                <p class="project__groups__name">laberinto</p>
+                                <img class="project__groups__image" src="../assets/images/laberinto.jpg"
+                                alt="laberinto web">
+                            </li>
+                            <li class="project__owner__item">
+                                <p class="project__groups__name">buscador de series</p>
+                                <img class="project__groups__image" src="../assets/images/buscaSeries.jpg"
+                                alt="buscador de series web">
+                            </li>
+                            <li class="project__owner__item">
+                                <p class="project__groups__name">rick y morty</p>
+                                <img class="project__groups__image" src="../assets/images/rick&morty.jpg"
+                                alt="rick y morty web">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </main>
-<a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a> 
-            <a
-            class="link__github" href="https://github.com" target="_blank">GitHub</a>
-                <footer class="page__footer"> <small>     &copy; Todos los derechos reservados     
-<a class="link__adalab" href="https://adalab.es" target="_blank">Adalab</a> 
-   </small> 
-                </footer>
+            <footer class="footer"> <small>     &copy; Todos los derechos reservados   </small> 
+            </footer>
         </div>
     </body>
 
